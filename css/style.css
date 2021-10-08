@@ -1,0 +1,51 @@
+body{
+    background: url(/images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+    color: white;
+    font-weight: 400;
+    overflow: hidden;
+}
+.main{
+    padding: 12px 4px;
+}
+h2{
+    font-weight: 600;
+
+}
+/* div{
+    border: 3px solid red;
+    margin: 2px;
+} */
+
+.down{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+.top{
+    padding: 25px 0px;
+}
+#R{
+    padding-left: 30px;
+}
+#btn{
+    color: hsl(257, 40%, 49%);
+    border-radius: 30px;
+    height: 3.4rem;
+    width: 10.4rem;
+    font-size: 1.2rem;
+}
+#btn:hover{
+background-color:  hsl(300, 69%, 71%);
+cursor: pointer;
+}
+
+@media screen and (max-width:375px){
+.body{
+    background: url(/images/bg-mobile.svg);
+}    
+.down{
+    display: flex;
+    flex-direction: column;
+}
+}
